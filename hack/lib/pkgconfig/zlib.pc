@@ -1,0 +1,13 @@
+prefix=/home/shahabas/shahabas/hackathon/hack
+exec_prefix=/home/shahabas/shahabas/hackathon/hack
+libdir=/home/shahabas/shahabas/hackathon/hack/lib
+sharedlibdir=/home/shahabas/shahabas/hackathon/hack/lib
+includedir=/home/shahabas/shahabas/hackathon/hack/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
